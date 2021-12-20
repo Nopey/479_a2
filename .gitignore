@@ -1,0 +1,13 @@
+# built binaries
+seasat
+seasat.d
+seasat_dbg
+seasat_dbg.d
+
+# documentation
+doc
+
+# object files
+# These are only leftover when the rustc process is interrupted with CTRL-C
+# (example: seasat.seasat.7rcbfp3g-cgu.11.rcgu.o)
+seasat*.o

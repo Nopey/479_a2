@@ -1,0 +1,48 @@
+// The format of the input for each example is:
+// The number of distinct symbols
+// The symbols separated by space
+// The number of triples in the Constraints
+// For each triple
+// symbol1 symbol2 symbol3
+// ...
+
+// Example input 1:
+7
+a b c d e f g
+3
+c e f
+f d e
+e a g
+
+// Example input 2:
+// the solution can be: Aluminum=4, Bronze=0, Cobalt=5, Dysprosium=3, Erbium=1, Flerovium=2
+6
+Aluminum Bronze Cobalt Dysprosium Erbium Flerovium
+4
+Cobalt Bronze Erbium
+Aluminum Cobalt Dysprosium
+Erbium Flerovium Cobalt
+Dysprosium Cobalt Flerovium
+
+// Example input 3: the solution can be: 1=2, 2=1, 3=3
+3
+1 2 3
+3
+2 1 3
+1 3 2 // comments inbetween identifiers are allowed
+3 2 1
+
+// Example input 4: this one doesn't have a solution
+3
+a b c
+3
+a c b
+c a b
+b a c
+
+// Example input 5: trivially satisfied
+// (of my own creation, not from original A2-input.txt)
+0
+0
+
+
